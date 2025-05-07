@@ -136,11 +136,12 @@ def process_photometry_data(path):
 
 
 def main():
+    your_path: ''
     # to run analysis on list of recordings, put path to .txt file containing path list here:
-     control_analysis("/Users/brivandrey/Desktop/FP/1618/recordings.txt")
+    control_analysis(your_path)
 
     # to run analysis on a single recording, put path to the recording folder here and set single_run to True
-    #control_analysis("/Users/brivandrey/Desktop/FP/1541/1541_2023-03-07-143611", single_run=True)
+    #control_analysis(your_path, single_run=True)
 
 
 if __name__ == '__main__':
